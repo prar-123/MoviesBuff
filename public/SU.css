@@ -1,0 +1,130 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+  .logo #logo {
+	height: 100px;
+	margin-left: -370px;
+	margin-bottom: 550px;
+  }
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0,0,0, .6)), url('https://www.mastkhabar.com/wp-content/uploads/2021/02/Download-Hub-Movies.jpg');
+    box-shadow: inset 120px 100px 250px #000000, inset -120px -100px 250px #000000;
+    overflow-x: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.container{
+    background-color: rgba(0, 0, 0, 0.785);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0,0,0,0.048), 0 12.8px 10.5px rgba(0,0,0,0.58) ;
+    width: 450px;
+    max-width: 100%;
+}
+
+.header{
+    background-color: #e50914;
+    padding: 20px 40px;
+}
+
+.header h2{
+    color: white;
+    font-size: 26px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.form{
+    padding: 40px;
+}
+
+.form-control{
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.form-control label{
+    color: white;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.form-control input{
+	color: white;
+    background-color: #333;
+    width: 100%;
+    border-bottom: 2px solid #555;
+    font-size: 14px;
+    border-radius: .3rem;
+    padding: 12px;
+    display: block;
+}
+
+.form-control input:focus{
+    outline: 0;
+    border-color: #777;
+}
+
+.form-control.success input{
+    border-color: #39df7e;
+}
+
+.form-control.error input{
+    border-color: #df3434;
+}
+
+.form-control i {
+    position: absolute;
+    right: 12px;
+    top: 40px;
+    visibility: hidden;
+}
+
+.form-control.error small{
+    visibility: visible;
+}
+
+.form-control small{
+    color: #df3434;
+    position: absolute;
+    left: 0;
+    visibility: hidden;
+}
+
+.form-control.success i.fa-check-circle{
+    color: #39df7e;
+    visibility: visible;
+}
+
+.form-control.error i.fa-exclamation-circle{
+    color: #df3434;
+    visibility: visible;
+}
+
+.form .btn{
+    background: #e50914;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    display: block;
+    font-size: 16px;
+    padding: 15px 0;
+    margin-top: 15px;
+    width: 100%;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.form .btn:hover{
+    opacity: 0.9;
+}

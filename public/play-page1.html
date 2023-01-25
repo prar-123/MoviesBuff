@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<div class="web-page">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        MoviesBuff - Watch Movies Online, Watch TV Shows Online
+    </title>
+     <!-- TAB ICON LINK -->
+     <link rel="icon" href="image/MoviesBuffLogo.png">
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700;900&display=swap" rel="stylesheet">
+    <!-- OWL CAROUSEL -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" />
+    <!-- BOX ICONS -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <!-- APP CSS -->
+    <link rel="stylesheet" href="play-page1.css">
+    <!--search icon-->
+    <script src="https://kit.fontawesome.com/f6dcf461c1.js" crossorigin="anonymous"></script>
+    
+</head>
+
+<body>
+    <!--<div class="btns">
+        <Button onclick="Toggle1()" id="btnh1" class="btns1"><i class="fas fa-heart"></i></Button>
+    </div>
+    <script>
+      
+    //    First Like Button   
+       var btnvar1 = document.getElementById('btnh1');
+
+       function Toggle1(){
+                if (btnvar1.style.color =="red") {
+                    btnvar1.style.color = "grey"
+                }
+                else{
+                    btnvar1.style.color = "red"
+                }
+       }
+
+    </script>-->
+
+
+
+    <!-- NAV -->
+    <div class="nav-wrapper">
+        <div class="container">
+            <div class="nav">
+                <div class="logo">
+                    <img id="logo" src="image/MBoriginal.png">
+                </div>
+                <ul class="nav-menu" id="nav-menu">
+                    <li><a href="index1.html">Home</a></li>
+                    <!--<li><a href="#">Genre</a></li>
+                    <li><a href="#">Movies</a></li>
+                    <li><a href="#">Series</a></li>
+                    <li><a href="#">About</a></li>-->
+                    
+                </ul>
+                <!-- MOBILE MENU TOGGLE -->
+                <div class="hamburger-menu" id="hamburger-menu">
+                    <div class="hamburger"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END NAV -->
+    <div class="hero-section">
+        <!-- HERO SLIDE -->
+        <div class="play-container conntainer">
+            <!----   <img src="https://www.techradar247.com/wp-content/uploads/2020/08/Jumanji-4-1000x600.jpg " width="75%" height="1000" alt="" class="play-img">
+            -->
+           <div class="video-container">
+               <div class="video-box">
+                <video id="myvideo" src="image/infinity-pool-trailer-1_h480p.mov" width="1500" height="500" controls></video>
+               </div>
+           </div> 
+            <div class="play-text">
+             <h1>Infinity Pool</h1>
+             <!--<div class="rating">
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star-half' ></i>
+            </div>-->
+            <div class="rating">
+                <div class="post">
+                  <div class="text">Thanks for ratieng us!</div>
+                 <!----<div class="edit">EDIT</div>-->
+                </div>
+                <div class="star-widget">
+                  <input type="radio" name="rate" id="rate-5">
+                  <label for="rate-5" class="fas fa-star"></label>
+                  <input type="radio" name="rate" id="rate-4">
+                  <label for="rate-4" class="fas fa-star"></label>
+                  <input type="radio" name="rate" id="rate-3">
+                  <label for="rate-3" class="fas fa-star"></label>
+                  <input type="radio" name="rate" id="rate-2">
+                  <label for="rate-2" class="fas fa-star"></label>
+                  <input type="radio" name="rate" id="rate-1">
+                  <label for="rate-1" class="fas fa-star"></label>
+                  <form action="#">
+                    <header></header>
+                    <div class="textarea">
+                      <textarea cols="30" placeholder="Describe your experience.."></textarea>
+                    </div>
+                    <div class="bittun">
+                      <button type="submit">Post</button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+              <script>
+               const btn = document.querySelector("button");
+      const post = document.querySelector(".post");
+      const widget = document.querySelector(".star-widget");
+      const editBtn = document.querySelector(".edit");
+      btn.onclick = ()=>{
+        widget.style.display = "none";
+        post.style.display = "block";
+        editBtn.onclick = ()=>{
+          widget.style.display = "block";
+          post.style.display = "none";
+        }
+        return false;
+      }
+              </script>
+          
+            <div class="star">
+            <div class="container">
+             <!-- Creation of button -->
+             <div class="button">
+                <Button onclick="Toggle1()" id="butnh1" class="batn"><i class="fas fa-heart"></i></Button>
+            </div>
+            <script>
+               
+        
+            // First Like Button   
+               var btnvar1 = document.getElementById('butnh1');
+        
+               function Toggle1(){
+                        if (btnvar1.style.color =="red") {
+                            btnvar1.style.color = "grey"
+                        }
+                        else{
+                            btnvar1.style.color = "red"
+                        }
+               }
+            </script>
+     
+        </div>
+             <div class="tags">
+                <span>Comic</span>
+                <span>4k</span>
+                <span>Action</span>
+             </div>
+            
+            
+          <div class="play-discription">
+           <p>While staying at an isolated island resort, James (Alexander Skarsgård) and Em (Cleopatra Coleman) are enjoying a perfect vacation of pristine beaches, exceptional staff, and soaking up the sun. But guided by the seductive and mysterious Gabi (Mia Goth), they venture outside the resort grounds and find themselves in a culture filled with violence, hedonism, and untold horror. A tragic accident leaves them facing a zero tolerance policy for crime: either you’ll be executed, or, if you’re rich enough to afford it, you can watch yourself die instead.
+             </p>
+           <h2 class="cast-heading">Movie cast</h2>
+           <div class="cast">
+               <div class="cast-box">
+                   <img src="https://tse3.mm.bing.net/th?id=OIP.iZDIuu0HwCwfpdV6ThW00wHaKg&pid=Api&P=0" alt="" class="cast-img">
+                   <span class="class-title">Amanda Brugel</span>
+               </div>
+               
+               <div class="cast-box">
+                <img src="https://tse2.mm.bing.net/th?id=OIP.n_lDIN64ZwbtGW89d3Wq-gHaFg&pid=Api&P=0" alt="" class="cast-img">
+                <span class="class-title">John Ralston</span>
+              </div>
+
+              <div class="cast-box">
+                <img src="https://tse4.mm.bing.net/th?id=OIP.8WuBCNgnc8YQ3h3hWMwaUAHaJ7&pid=Api&P=0" alt="" class="cast-img">
+                <span class="class-title">	Cleopatra Coleman</span>
+              </div>
+
+              <div class="cast-box">
+                <img src="https://tse3.mm.bing.net/th?id=OIP.dJQKUyVoLXIrhfH1NseDPQHaE8&pid=Api&P=0" alt="" class="cast-img">
+                <span class="class-title">	Anita Major</span>
+              </div>
+
+             <div class="cast-box">
+                <img src="https://tse4.mm.bing.net/th?id=OIP.u1SK-IeWgaQMjiMv4TW7yAHaLH&pid=Api&P=0" alt="" class="cast-img">
+                <span class="class-title">	Roderick Hill</span>
+             </div>
+
+             <div class="cast-box">
+                <img src="https://tse3.explicit.bing.net/th?id=OIP.bfPWx83mgzsXyfma56UzqgHaHa&pid=Api&P=0" alt="" class="cast-img">
+                <span class="class-title">Caroline Boulton</span>
+             </div>
+
+             <div class="cast-box">
+                <img src="https://tse3.mm.bing.net/th?id=OIP.Xo1UaaSko_d6v2-p52-FWQHaHA&pid=Api&P=0" alt="" class="cast-img">
+                <span class="class-title">	Jeff Ricketts</span>
+             </div>
+           </div>
+        </div>
+        <div class="download">
+            <h2 class="download-title">Download</h2>
+              <div class="download-links">
+                <a href="infinity-pool-trailer-1_h480p.mov" download>480p</a>
+                <a href="infinity-pool-trailer-1_h480p.mov" download>720p</a>
+                <a href="infinity-pool-trailer-1_h480p.mov" download>1080p</a>
+              </div>
+        </div>
+
+        <div class="copyright">
+            <p>&#169; All Rights Are Reserved</p>
+        </div>
+
+        <script src="app.js"></script>
+</body>
+</div>
+</html>

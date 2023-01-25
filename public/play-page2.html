@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<div class="web-page">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        MoviesBuff - Watch Movies Online, Watch TV Shows Online
+    </title>
+     <!-- TAB ICON LINK -->
+     <link rel="icon" href="image/MoviesBuffLogo.png">
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700;900&display=swap" rel="stylesheet">
+    <!-- OWL CAROUSEL -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" />
+    <!-- BOX ICONS -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <!-- APP CSS --
+    <link rel="stylesheet" href="grid.css">
+    <link rel="stylesheet" href="app.css">-->
+    <link rel="stylesheet" href="play-page1.css">
+    <!--search icon-->
+    <script src="https://kit.fontawesome.com/f6dcf461c1.js" crossorigin="anonymous"></script>
+    
+</head>
+
+<body>
+   <!--- <div class="btns">
+        <Button onclick="Toggle1()" id="btnh1" class="btns1"><i class="fas fa-heart"></i></Button>
+    </div>
+    <script>
+      
+    //    First Like Button   
+       var btnvar1 = document.getElementById('btnh1');
+
+       function Toggle1(){
+                if (btnvar1.style.color =="red") {
+                    btnvar1.style.color = "grey"
+                }
+                else{
+                    btnvar1.style.color = "red"
+                }
+       }
+
+    </script>-->
+
+    <!-- NAV -->
+    <div class="nav-wrapper">
+        <div class="container">
+            <div class="nav">
+                <div class="logo">
+                    <img id="logo" src="image/MBoriginal.png">
+                </div>
+                <ul class="nav-menu" id="nav-menu">
+                    <li><a href="index1.html">Home</a></li>
+                    <!--<li><a href="#">Genre</a></li>
+                    <li><a href="#">Movies</a></li>
+                    <li><a href="#">Series</a></li>
+                    <li><a href="#">About</a></li>-->
+                    
+                </ul>
+                <!-- MOBILE MENU TOGGLE -->
+                <div class="hamburger-menu" id="hamburger-menu">
+                    <div class="hamburger"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END NAV -->
+    <div class="hero-section">
+        <!-- HERO SLIDE -->
+        <div class="play-container conntainer">
+            <!----  <img src="https://www.techradar247.com/wp-content/uploads/2020/08/Jumanji-4-1000x600.jpg " width="75%" height="1000" alt="" class="play-img">
+            -->
+           <div class="video-container">
+               <div class="video-box">
+                <video id="myvideo"  src="image/avengers-endgame-overpower_h480p.mov" width="1500" height="500" controls></video>
+               </div>
+           </div> 
+            <div class="play-text">
+             <h1>Avengers_2</h1>
+             <div class="rating">
+                <div class="post">
+                  <div class="text">Thanks for ratieng us!</div>
+                 <!----<div class="edit">EDIT</div>-->
+                </div>
+                <div class="star-widget">
+                  <input type="radio" name="rate" id="rate-5">
+                  <label for="rate-5" class="fas fa-star"></label>
+                  <input type="radio" name="rate" id="rate-4">
+                  <label for="rate-4" class="fas fa-star"></label>
+                  <input type="radio" name="rate" id="rate-3">
+                  <label for="rate-3" class="fas fa-star"></label>
+                  <input type="radio" name="rate" id="rate-2">
+                  <label for="rate-2" class="fas fa-star"></label>
+                  <input type="radio" name="rate" id="rate-1">
+                  <label for="rate-1" class="fas fa-star"></label>
+                  <form action="#">
+                    <header></header>
+                    <div class="textarea">
+                      <textarea cols="30" placeholder="Describe your experience.."></textarea>
+                    </div>
+                    <div class="bittun">
+                      <button type="submit">Post</button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+              <script>
+                const btn = document.querySelector("button");
+      const post = document.querySelector(".post");
+      const widget = document.querySelector(".star-widget");
+      const editBtn = document.querySelector(".edit");
+      btn.onclick = ()=>{
+        widget.style.display = "none";
+        post.style.display = "block";
+        editBtn.onclick = ()=>{
+          widget.style.display = "block";
+          post.style.display = "none";
+        }
+        return false;
+      }
+              </script>
+          
+            <div class="star">
+            <div class="container">
+  
+                <!-- Creation of button -->
+                <div class="button">
+                    <Button onclick="Toggle1()" id="butnh1" class="batn"><i class="fas fa-heart"></i></Button>
+                </div>
+                <script>
+                   
+            
+                // First Like Button   
+                   var btnvar1 = document.getElementById('butnh1');
+            
+                   function Toggle1(){
+                            if (btnvar1.style.color =="red") {
+                                btnvar1.style.color = "grey"
+                            }
+                            else{
+                                btnvar1.style.color = "red"
+                            }
+                   }
+                </script>
+         
+            </div>
+             <div class="tags">
+                <span>Comic</span>
+                <span>4k</span>
+                <span>Action</span>
+             </div>
+            
+            
+          <div class="play-discription">
+           <p>When a comet falls towards Earth. Our greatest heroes
+            are united once again to fight a threat greater, than they
+            ever had expected. When friends become enemies, and enemies become
+            allies, six heroes have a choice to make. Not for themselves,
+            but for the world.
+             </p>
+           <h2 class="cast-heading">Movie cast</h2>
+           <div class="cast">
+               <div class="cast-box">
+                   <img src="https://i.pinimg.com/originals/04/9c/48/049c488eac67277bd0ade86bc00c1723.jpg" alt="" class="cast-img">
+                   <span class="class-title">Steve Rogers</span>
+               </div>
+               
+               <div class="cast-box">
+                <img src="https://tse2.mm.bing.net/th?id=OIP.Y3k5dYBkzBEbyELiENRArAHaF-&pid=Api&P=0" alt="" class="cast-img">
+                <span class="class-title">Tony Edward Stark</span>
+              </div>
+
+              <div class="cast-box">
+                <img src="https://tse1.mm.bing.net/th?id=OIP.Y4gaFL2NFGGUFNM7CkYRmQHaE7&pid=Api&P=0" alt="" class="cast-img">
+                <span class="class-title">	Natasha Romanoff </span>
+              </div>
+
+              <div class="cast-box">
+                <img src="https://tse1.mm.bing.net/th?id=OIP.wmdxm9UCKiaoUYgKhEVegAAAAA&pid=Api&P=0" alt="" class="cast-img">
+                <span class="class-title">	Simon Williams</span>
+              </div>
+
+             <div class="cast-box">
+                <img src="https://external-preview.redd.it/SHJcf2DiK1jkbmFUSsKYlj-Ehckg1Wmkzusi7z5a7aQ.jpg?auto=webp&s=3c550c8840857c62aca44fee791fa1b4c54748c8" alt="" class="cast-img">
+                <span class="class-title">Scott Lang</span>
+             </div>
+
+             <div class="cast-box">
+                <img src="https://tse1.mm.bing.net/th?id=OIP.EmJ18-uqWfgIpN32gNw-jwHaJY&pid=Api&P=0" alt="" class="cast-img">
+                <span class="class-title">Paul Bettany</span>
+             </div>
+
+             <div class="cast-box">
+                <img src="https://images6.fanpop.com/image/photos/44000000/Thor-Odinson-The-Avengers-2012-the-avengers-44013104-540-540.jpg" alt="" class="cast-img">
+                <span class="class-title">	Thor Odinson</span>
+             </div>
+           </div>
+        </div>
+        <div class="download">
+            <h2 class="download-title">Download</h2>
+              <div class="download-links">
+                <a href="avengers-endgame-overpower_h480p.mov" download>480p</a>
+                <a href="avengers-endgame-overpower_h480p.mov" download>720p</a>
+                <a href="avengers-endgame-overpower_h480p.mov" download>1080p</a>
+              </div>
+        </div>
+
+        <div class="copyright">
+            <p>&#169; All Rights Are Reserved</p>
+        </div>
+
+        <script src="app.js"></script>
+</body>
+</div>
+</html>
